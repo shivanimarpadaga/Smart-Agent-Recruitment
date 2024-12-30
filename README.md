@@ -108,4 +108,4 @@ The tools used in this project include:
 - __Power BI__ - This <b>Business Intelligence</b> tool was required to explore data and create charts, graphs, visualizations to come up with a <b>Dashboard to capture the past trends in Agent Recruitment</b>.
 
 ## :black_nib: Authors
-- Shivani Marpadaga - [Github Profile](https://github.com/AbhishekGit-hash)
+- Shivani Marpadaga - [Github Profile](https://github.com/shivanimarpadaga)
