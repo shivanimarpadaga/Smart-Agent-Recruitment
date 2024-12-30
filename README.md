@@ -8,8 +8,8 @@
 
 ## :bar_chart: Power BI Dashboard
 The Overview Dashboard and the Applicant Details Dashboard for FinMan Agent Recruitment.<br><br>
-<img src="dashboard%20images/Overview%20Dashboard.PNG" height="450" align="middle"><br><br>
-<img src="dashboard%20images/Applicant%20Details%20Dashboard.PNG" height="450" align="middle"><br> 
+<img src="Overview%20Dashboard.PNG" height="450" align="middle"><br><br>
+<img src="Applicant%20Details%20Dashboard.PNG" height="450" align="middle"><br> 
 
 ## :file_folder: Code
 - [Smart Agent Recruitment.ipynb](https://github.com/AbhishekGit-hash/Smart-Agent-Recruitment/blob/master/Smart%20Agent%20Recruitment.ipynb)
@@ -56,20 +56,20 @@ In this step features having missing values and outliers, target variable distri
 
 - The features Manager_Business and Manager_Business2 are highly coorelated. Similarly a high correlation is observed between Manager_Num_Products and Manager_Num_Products2.
 **In order to remove multi-colinearity the columns Manager_Business2 and Manager_Num_Products2 will be dropped**.<br><br>
-<img src="dashboard%20images/Correlation.png" height="400" align="middle"><br><br>
+<img src="Correlation.png" height="400" align="middle"><br><br>
 
 - As expected there will be a strong correlation between Manager_Num_Products and Manager_Business. As the number of products sold increases the amount of business sourced by the Manager also increased.<br><br>
-<img src="dashboard%20images/Business_Products_corr.png" height="400" align="middle"><br><br>
+<img src="Business_Products_corr.png" height="400" align="middle"><br><br>
 
 - The peak number of applications were received in the month of May, 2007. In initial months the number of applicatins received was low. However the number increased in the subsequent months.The a huge bulk of applications are received in the months starting from July till December in both the years of 2007 and 2008.<br><br>
-<img src="dashboard%20images/Num_App_Yr_Month.png" height="500" align="middle"><br><br>
+<img src="Num_App_Yr_Month.png" height="500" align="middle"><br><br>
 
 - It is observed that initially in the period of Apr - Aug 2007, the number of products sold where business was sourced is very lesser than the times when the business was not sourced. The number of products sold where business was sourced started to increase in September, 2007.
 The difference between the number of products sold between busniess sourced and non-soucred gradually decreased and this trend continued till March, 2008. There were instances where Number of products sold when business was sourced is more than that when not sourced.<br><br>
-<img src="dashboard%20images/Prod_Sold_Yr_Month.png" height="900" align="middle"><br><br>
+<img src="Prod_Sold_Yr_Month.png" height="900" align="middle"><br><br>
 
 - On investigating each applications received throughout the time period, a trend is captured. For a particular day the agent's application which was received first or relatively at the beginning of the day was able to source business within 3 months post 7 day training. This pattern is observed across all the 16 months of the train dataset. **This trend will be captured in a feature in the Feature Engineering step**.<br><br>
-<img src="dashboard%20images/Application_Select_Status.png" height="900" align="middle"><br><br>
+<img src="Application_Select_Status.png" height="900" align="middle"><br><br>
 
 ### 2. Data Preprocessing / Cleaning
 - **19** features out of **23** had missing values.
@@ -97,10 +97,10 @@ The difference between the number of products sold between busniess sourced and 
 ### Feature Importance
 #### XGBoost
 In the **XGBoost** model, the top 5 features of importance are : **Agent_Age**, **App_Order_percent**, **Manager_Age**, **Applicant_City_PIN** and **Manager_Exp**.<br>
-<img src="dashboard%20images/Xgb_Feat_Imp.png" height="500" align="center"><br>
+<img src="Xgb_Feat_Imp.png" height="500" align="center"><br>
 #### LightGBM
 In the **LightGBM** model, the top 5 features of importance are : **App_Order_percent**, **Manager_Exp**, **Applicant_City_PIN**, **Office_PIN**, **Manager_Age** and **Agent_Age**.<br> 
-<img src="dashboard%20images/lightgbm_feat_imp.png" height="500" align="center"><br>
+<img src="lightgbm_feat_imp.png" height="500" align="center"><br>
 
 ## :gear: Tools and Technologies used
 The tools used in this project include:
