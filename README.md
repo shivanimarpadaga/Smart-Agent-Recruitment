@@ -51,8 +51,8 @@ The project has been divided into the following steps :
 In this step features having missing values and outliers, target variable distribution, numerical feature distribution, categorical feature distribution, Univariate and Bivariate Analysis was performed.<br>
 **Some of the data insights are given below**. _(For the detail EDA please refer to the [ipynb notebook](https://nbviewer.org/github/AbhishekGit-hash/Smart-Agent-Recruitment/blob/master/Smart%20Agent%20Recruitment.ipynb))_
 - During univariate Analysis, it is oberserved that all the numerical features had skewness.<br><br>
-<img src="dashboard%20images/Univariate_Analysis_1.png" height="250" align="middle"><br><br>
-<img src="dashboard%20images/Univariate_Analysis_2.png" height="250" align="middle"><br><br>
+<img src="Univariate_Analysis_1.png" height="250" align="middle"><br><br>
+<img src="Univariate_Analysis_2.png" height="250" align="middle"><br><br>
 
 - The features Manager_Business and Manager_Business2 are highly coorelated. Similarly a high correlation is observed between Manager_Num_Products and Manager_Num_Products2.
 **In order to remove multi-colinearity the columns Manager_Business2 and Manager_Num_Products2 will be dropped**.<br><br>
@@ -108,4 +108,4 @@ The tools used in this project include:
 - __Power BI__ - This <b>Business Intelligence</b> tool was required to explore data and create charts, graphs, visualizations to come up with a <b>Dashboard to capture the past trends in Agent Recruitment</b>.
 
 ## :black_nib: Authors
-- Abhishek Chowdhury - [Github Profile](https://github.com/AbhishekGit-hash)
+- Shivani Marpadaga - [Github Profile](https://github.com/AbhishekGit-hash)
